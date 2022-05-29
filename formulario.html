@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+ <body>
+     <div class="container">
+         <header>
+             <div class="cabecera">
+                 <a href="./index.html"><img src="./img/BANCO POPULAR.png" width="100px" alt=""></a>
+             </div>
+             <nav id="nav">
+                 <li class="nav-bar">
+                     <ul class="nav-bar-items"><a href="#">NOSOTROS</a></ul>
+                     <ul class="nav-bar-items"><a href="./formulario.html">PRESTAMOS</a></ul>
+                     <ul class="nav-bar-items"><a href="#">PLAZOS FIJOS </a></ul>
+                     <ul class="nav-bar-items"><a href="#">CONTACTO</a></ul>
+                 </li>
+             </nav>
+         </header>
+        
+        
+         <p id="form">FORMULARIO DE SOLICITUD DE CREDITO</p>
+             
+         <form action="">
+
+            <label for="">NOMBRE Y APELLIDO</label>
+            <input type="text" placeholder="Ingrese sus Datos">
+
+            <label for="">DNI</label>
+            <input type="number" placeholder="Ingrese sus Datos">
+
+            <label for="">SUELDO BASICO</label>
+            <input type="text" value="$">
+            
+            
+
+            <div class="cuotas">
+            <label for="">Elija La cantidad de Cuotas</label>
+            <select name="Cuotas" id="">
+            <option value="0">Elija cantidad de Cuotas</option>
+            <option value="1">1 Cuota</option>
+            <option value="12">12 Cuotas</option>
+            <option value="18">18 Cuotas</option>
+            <option value="24">24 Cuotas</option>
+            </select></div>
+            <div class="botones">
+            <button class="btn" type="reset">BORRAR</button>
+            <button class="btn" type="button">SOLICITAR</button>
+            </div>
+    </form>
+    <script src="./index.js"></script>
+</body>
+</html>

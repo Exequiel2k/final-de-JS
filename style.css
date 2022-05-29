@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,600&display=swap');
+
+*{
+    font-family: 'Playfair Display', serif;
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    width: 90%;
+    height: 100vh;
+    justify-content: center;
+    margin: 0 auto;
+}
+header{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    justify-content: space-between;
+    background: #131313;
+    height: 100px;
+
+
+}
+header #nav .nav-bar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-right:20px ;
+    
+} 
+
+header #nav .nav-bar .nav-bar-items a{
+  
+   color: white;
+   font-size: 1.4rem;
+   text-decoration: none;
+   align-items: center;
+   line-height: 100px;
+   margin-left: 20px;
+}
+.baner{
+    position: relative;
+}
+.baner-img{
+    width: 100%;
+}
+.baner-btn{
+    width: 350px;
+    height: 50px;
+    background-color: rgb(12, 233, 8);
+    color: white;
+    font-size: 20px;
+    position: relative;
+    top: -100px;
+    left: 40%;
+}
+.baner-btn a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+footer{
+position: relative;
+   height:30px;
+   width:100%;
+   background: #131313;
+   margin-top: -55px;
+}
+
+footer p{
+    color: white;
+    text-align: center;
+
+}
+
+/*FORMULARIO*/
+#form{
+ font-size: 40px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    justify-content: center;
+}
+
+label{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+input{
+    width: 500px;
+    height: 30px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    font-size: 20px;
+    padding: 5px;
+    font-family: 'Times New Roman', Times, serif;
+}
+select{
+    margin-top: 30px;
+    width:500px;
+    height: 30px;
+    margin: 0 auto;
+   
+}
+
+.cuotas{
+    display: none;
+}
+.botones{
+    display: flex;
+    margin: 0 auto;
+    gap: 40px;
+}
+.btn{
+    
+    width: 100px;
+    height: 50px;
+    background: aqua;
+    text-align: center;
+}
